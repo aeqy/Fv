@@ -3,6 +3,6 @@
 
 <template>
   <main>
-    <TheWelcome />
+    <h1>weconnect demo-主页 ???</h1>
   </main>
 </template>
