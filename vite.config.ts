@@ -14,5 +14,9 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  server: {
+    port: 3000, // 端口号
+    strictPort: true  // 端口号被占用时直接退出
   }
 })
